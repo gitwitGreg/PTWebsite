@@ -1,0 +1,41 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.home .header{
+    padding: 250px 100px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home .header h1 {
+    color: black;
+    font-family: cursive;
+    font-size: 70px;
+
+}
+.home .header p{
+    font-size: 30px;
+}
+
+.home .header button{
+    height: 60px;
+    width: 180px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.home .header button:hover{
+    background: transparent;
+    color: purple;
+    border: 2px solid black;
+}

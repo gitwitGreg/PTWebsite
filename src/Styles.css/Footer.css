@@ -1,0 +1,36 @@
+.footer{
+    background: black;
+    color: white;
+    height: 20vh;
+    width:  100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding: 0px  600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer .socials{
+    font-size: xx-large;
+    justify-content: space-between;
+    display: flex;
+    width: 20%;
+}
+
+.footer .socials svg {
+    color: white;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.footer .socials svg:hover{
+    background: transparent;
+    color: purple;
+}
+
+.footer p{
+    font-size: large;
+    margin-top: 30px;
+    padding-left: 80px;
+}

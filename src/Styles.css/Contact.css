@@ -1,0 +1,62 @@
+.contact{
+    display: flex;
+}
+
+.contact .leftside{
+    height: 600px;
+    width: 50%;
+}
+
+.contact .rightside{
+    padding: 10px 50px;
+}
+
+.contact .rightside h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+
+.contact .rightside p{
+    font-family: small;
+    font-weight: 400;
+}
+
+.contact .rightside .name{
+    width: 600px;
+    height: 70px;
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+.contact .rightside .email{
+    width: 600px;
+    height: 70px;
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+
+.contact .rightside .message{
+    width: 600px;
+    height: 200px;
+    font-size: medium;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.contact .rightside .messageBtn{
+    height: 50px;
+    width:120px;
+    border: black;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.contact .rightside .messageBtn:hover{
+    background: transparent;
+    color: white;
+    background: black
+
+}
