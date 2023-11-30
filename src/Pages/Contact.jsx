@@ -16,6 +16,7 @@ export const ContactUs = () => {
       }, (error) => {
           console.log(error);
       });
+      alert('Email was sent sucessfully!')
   };
   return (
     <div className='contact'>
