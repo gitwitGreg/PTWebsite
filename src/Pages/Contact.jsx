@@ -13,10 +13,10 @@ export const ContactUs = () => {
     emailjs.sendForm('service_qharb2l', 'template_pfkeykj', '#forms', '39ux1Bew-qOnkdp0A')
       .then((result) => {
           console.log(result.text);
+          alert('Email was sent sucessfully!')
       }, (error) => {
           console.log(error);
       });
-      alert('Email was sent sucessfully!')
   };
   return (
     <div className='contact'>
